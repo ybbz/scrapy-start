@@ -1,2 +1,7 @@
 # scrapy-start
-A scrapy project
+
+Scrapy tutorial
+
+## directory
+
+tutorial : a scrapy project.
