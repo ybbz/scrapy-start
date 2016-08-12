@@ -31,3 +31,7 @@ class AtomItem(scrapy.Item):
     id = scrapy.Field()
     name = scrapy.Field()
     description = scrapy.Field()
+
+
+class BaiduSearchItem(scrapy.Item):
+    pass
