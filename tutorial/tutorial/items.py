@@ -35,3 +35,11 @@ class AtomItem(scrapy.Item):
 
 class BaiduSearchItem(scrapy.Item):
     pass
+
+
+class DoubanTopMoviesItem(scrapy.Item):
+    title = scrapy.Field()
+    link = scrapy.Field()
+    rank = scrapy.Field()
+    star = scrapy.Field()
+    rate = scrapy.Field()
